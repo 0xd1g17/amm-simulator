@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     allowedHosts: true,
-  }
+  },
+  base: '/amm-simulator/',
 })
